@@ -11,7 +11,7 @@
 •	В классе Dog должна быть одна переменная name.
 •	В классе Dog не должно быть методов.
 */
-public class Sayhello {
+public class Solution {
     public static void main(String[] args) {
         Dog dog1 = new Dog();
         dog1.name = "Max";
