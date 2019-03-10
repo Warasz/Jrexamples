@@ -1,0 +1,30 @@
+/*
+https://javarush.ru/groups/posts/1949-znakomstvo-s-klassami-napisanie-sobstvennihkh-klassov-konstruktorih
+Знакомство с классами: написание собственных классов, конструкторы
+*/
+public class Artifact {
+
+    String cult;
+    int num, age;
+
+    public Artifact(int num){
+        this.num = num;
+    }
+
+    public Artifact(int num, String cult){
+        this.num = num;
+        this.cult = cult;
+    }
+
+    public Artifact(int num, String cult, int age){
+        this.num = num;
+        this.cult = cult;
+        this.age = age;
+    }
+
+    public static void main(String[] args) {
+        Artifact art1 = new Artifact(212121, "Aztec");
+        Artifact art2 = new Artifact(212121);
+        Artifact art3 = new Artifact(212121, "Aztec", 12); //напишите ваш код здесь
+    }
+}
