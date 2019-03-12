@@ -10,8 +10,6 @@
 •	Программа должна вывести "Hello, Amigo!".
 */
 
-
-
 public class Solution {
     public static void printString(String s) {
         System.out.println(s);
