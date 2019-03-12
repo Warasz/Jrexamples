@@ -22,7 +22,6 @@ public class Solution {
     }
 
     public static double convertEurToUsd(int eur, double course) {
-        double dol = eur * course;
-        return dol;
+        return eur * course;
     }
 }
