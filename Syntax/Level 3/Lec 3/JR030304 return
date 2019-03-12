@@ -16,8 +16,7 @@ return 123 * 435;
 
 public class Solution {
     public static double addTenPercent(int i) {
-        double p = i * 1.1;
-        return p;
+        return i*1.1;
     }
 
     public static void main(String[] args) {
